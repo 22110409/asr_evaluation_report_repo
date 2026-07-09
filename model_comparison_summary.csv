@@ -1,0 +1,6 @@
+Model,Model ID,Best Use Case,Arabic Result,Mixed Arabic-English Result,Speed Notes,Recommendation
+SeamlessM4T ASR,facebook/hf-seamless-m4t-medium,Arabic-only transcription,Excellent Arabic wording and punctuation,May translate or normalize mixed speech into Arabic,CPU tests ranged from 3.611 to 21.911 seconds,Recommended for Arabic-only mode
+Faster-Whisper Large-v3 Turbo,deepdml/faster-whisper-large-v3-turbo-ct2,Mixed Arabic-English assistant,Good but with some Arabic wording errors,Best practical preservation of English terms in mixed speech,GPU test 3.689 seconds,Recommended as default mixed-language ASR
+Faster-Whisper Large-v3,large-v3,Mixed Arabic-English assistant,Good Arabic and mixed output,Good preservation of English terms,GPU test 4.262 seconds,Good alternative to Turbo
+WindyWord Arabic Lingua,WindyWord/listen-windy-lingua-ar,Arabic-only experiments,Good Arabic-only direction,Weak code-switching and converts English into Arabic-like words,CPU tests 31.602 to 68.268 seconds,Not recommended for mixed speech
+NVIDIA Parakeet TDT V3,nvidia/parakeet-tdt-0.6b-v3,English transcription,Not suitable for Arabic; transliterates Arabic,Weak Arabic-English output,CPU tests 16.011 to 19.3 seconds,Not recommended for Arabic assistant

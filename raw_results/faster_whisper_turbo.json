@@ -1,0 +1,10 @@
+{
+  "model_name": "Faster-Whisper Large-v3 Turbo",
+  "model_id": "deepdml/faster-whisper-large-v3-turbo-ct2",
+  "transcription_text": "مرحبا كيف تحال شو الأخبار هاي هي تست للصوت عشان تسكت إذا هو بكتر إيش بيك اللغة العربية with English Thank you",
+  "detected_language": "ar",
+  "language_probability": 0.84912109375,
+  "inference_time_seconds": 3.689,
+  "device": "CUDA",
+  "processed_audio_path": "C:\\Users\\ixiat\\AppData\\Local\\Temp\\stt_model_tests_processed_audio\\Recording (2)_16khz_mono.wav"
+}

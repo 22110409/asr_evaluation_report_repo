@@ -1,0 +1,9 @@
+{
+  "model_name": "WindyWord Arabic Lingua",
+  "model_id": "WindyWord/listen-windy-lingua-ar",
+  "transcription_text": "السلام عليكم جميعا اليوم نستمتع باستخدام استخدام الانجليزيون التعليقات العربيه التعليقات العربيه اريد التاكد ان النظام يستطيع فهم العربيه والانجليزيه بنفس الكفاءه هل يمكن ان تشتتل امتلاك لتومورو في امساء و ترسل لي التفاصيل بايميل بعد ذلك ارسلي لي ملخصا قصيرا باللغه العربيه مع الاحتفاظ بالمصطلحات التقنيه باللغه الانجليزيه",
+  "detected_language": "ar_forced",
+  "inference_time_seconds": 68.268,
+  "device": "CPU",
+  "processed_audio_path": "C:\\Users\\ixiat\\AppData\\Local\\Temp\\stt_model_tests_processed_audio\\mixed_16khz_mono.wav"
+}

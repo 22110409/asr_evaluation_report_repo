@@ -1,0 +1,10 @@
+{
+  "model_name": "Faster-Whisper Large-v3",
+  "model_id": "large-v3",
+  "transcription_text": "مرحبا كيف حال شو الاخبار? هاي هي تيست للصوت. عشان تيست اذا هو بيقدر يشبك اللغة العربية.",
+  "detected_language": "ar",
+  "language_probability": 0.97607421875,
+  "inference_time_seconds": 4.262,
+  "device": "CUDA",
+  "processed_audio_path": "C:\\Users\\ixiat\\AppData\\Local\\Temp\\stt_model_tests_processed_audio\\Recording (2)_16khz_mono.wav"
+}

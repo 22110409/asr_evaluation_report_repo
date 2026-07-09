@@ -1,0 +1,9 @@
+{
+  "model_name": "WindyWord Arabic Lingua",
+  "model_id": "WindyWord/listen-windy-lingua-ar",
+  "transcription_text": "مرحبا كيف حالك اليوم اتمني ان تكون بخير",
+  "detected_language": "ar_forced",
+  "inference_time_seconds": 31.602,
+  "device": "CPU",
+  "processed_audio_path": "C:\\Users\\ixiat\\AppData\\Local\\Temp\\stt_model_tests_processed_audio\\arabic_16khz_mono.wav"
+}

@@ -1,0 +1,10 @@
+{
+  "model_name": "SeamlessM4T ASR",
+  "model_id": "facebook/hf-seamless-m4t-medium",
+  "target_language": "arb",
+  "transcription_text": "مرحباً كيف حالكِ اليوم؟ أتمنى أن تكونَ بخير.",
+  "inference_time_seconds": 4.501,
+  "device": "CPU",
+  "processed_audio_path": "C:\\Users\\ixiat\\AppData\\Local\\Temp\\stt_model_tests_processed_audio\\arabic_16khz_mono.wav",
+  "notes": "Target language controls output language; mixed code-switching is not preserved."
+}

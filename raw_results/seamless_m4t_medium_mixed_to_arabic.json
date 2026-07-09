@@ -1,0 +1,10 @@
+{
+  "model_name": "SeamlessM4T ASR",
+  "model_id": "facebook/hf-seamless-m4t-medium",
+  "target_language": "arb",
+  "transcription_text": "السلام عليكم كل واحد. اليوم نحن نختبر مساعد متعددة اللغات. أريد التأكد أن النظام يستطيع فهم العربية والإنجليزية بنفس الكفاءة. Can You Schedule a Meeting for Tomorrow at HALEAYAMN Send Me The Details by E-mail. بعد ذلك أرسل لي ملخصاً قصيراً باللغة العربية مع الاحتفاظ بالمصطلحات التقنية باللغة الإنجليزية.",
+  "inference_time_seconds": 21.911,
+  "device": "CPU",
+  "processed_audio_path": "C:\\Users\\ixiat\\AppData\\Local\\Temp\\stt_model_tests_processed_audio\\mixed_16khz_mono.wav",
+  "notes": "Target language controls output language; mixed code-switching is not preserved."
+}
