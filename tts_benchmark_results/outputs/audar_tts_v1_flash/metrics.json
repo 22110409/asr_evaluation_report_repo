@@ -1,0 +1,45 @@
+{
+  "model_info": {
+    "name": "Audar TTS V1 Flash",
+    "license": "AudarAI Open License v1.0",
+    "commercial_use": "Yes",
+    "english_support": "Supported",
+    "arabic_support": "Supported",
+    "mixed_language_support": "Supported",
+    "voice_cloning": "Supported",
+    "self_hosted": true,
+    "notes": "GGUF Arabic-first bilingual TTS. Uses bundled demo_male_1 voice unless --reference-voice, AUDAR_TTS_REFERENCE_AUDIO, or AUDAR_TTS_VOICE is set."
+  },
+  "scenarios": [
+    {
+      "scenario": "arabic",
+      "text": "مرحبا، كيف حالك اليوم؟ أتمنى أن تكون بخير.",
+      "output_path": "outputs\\audar_tts_v1_flash\\arabic.wav",
+      "inference_time_seconds": 42.5877,
+      "audio_duration_seconds": 5.06,
+      "rtf": 8.4165,
+      "output_size_bytes": 242924,
+      "ram_usage_mb": 4030.6211,
+      "vram_usage_mb": null,
+      "wer": null,
+      "cer": null,
+      "stt_text": null,
+      "error": null
+    },
+    {
+      "scenario": "mixed",
+      "text": "السلام عليكم everyone, today we are testing a multilingual AI assistant. أريد التأكد أن النظام يستطيع فهم العربية والإنجليزية بنفس الكفاءة. Can you schedule a meeting for tomorrow at 10 AM and send me the details by email? بعد ذلك أرسل لي ملخصاً قصيراً باللغة العربية مع الاحتفاظ بالمصطلحات التقنية باللغة الإنجليزية.",
+      "output_path": "outputs\\audar_tts_v1_flash\\mixed.wav",
+      "inference_time_seconds": 41.8334,
+      "audio_duration_seconds": 27.3,
+      "rtf": 1.5324,
+      "output_size_bytes": 1310444,
+      "ram_usage_mb": 12.918,
+      "vram_usage_mb": null,
+      "wer": null,
+      "cer": null,
+      "stt_text": null,
+      "error": null
+    }
+  ]
+}

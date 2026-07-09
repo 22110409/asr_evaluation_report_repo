@@ -1,0 +1,75 @@
+{
+  "model_info": {
+    "name": "Fish Speech S2",
+    "license": "Open model; check selected S2 checkpoint license",
+    "commercial_use": "Check checkpoint license",
+    "english_support": "Supported",
+    "arabic_support": "Supported",
+    "mixed_language_support": "Supported",
+    "voice_cloning": "Supported",
+    "self_hosted": true,
+    "notes": "Requires a running Fish Speech API server."
+  },
+  "scenarios": [
+    {
+      "scenario": "english",
+      "text": "Hello, how are you today? I hope you are doing well.",
+      "output_path": "outputs\\fish_speech_s2\\english.wav",
+      "inference_time_seconds": null,
+      "audio_duration_seconds": null,
+      "rtf": null,
+      "output_size_bytes": null,
+      "ram_usage_mb": null,
+      "vram_usage_mb": null,
+      "wer": null,
+      "cer": null,
+      "stt_text": null,
+      "error": "HTTPConnectionPool(host='127.0.0.1', port=8080): Max retries exceeded with url: /v1/tts (Caused by NewConnectionError(\"HTTPConnection(host='127.0.0.1', port=8080): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it\"))"
+    },
+    {
+      "scenario": "arabic",
+      "text": "مرحبا، كيف حالك اليوم؟ أتمنى أن تكون بخير.",
+      "output_path": "outputs\\fish_speech_s2\\arabic.wav",
+      "inference_time_seconds": null,
+      "audio_duration_seconds": null,
+      "rtf": null,
+      "output_size_bytes": null,
+      "ram_usage_mb": null,
+      "vram_usage_mb": null,
+      "wer": null,
+      "cer": null,
+      "stt_text": null,
+      "error": "HTTPConnectionPool(host='127.0.0.1', port=8080): Max retries exceeded with url: /v1/tts (Caused by NewConnectionError(\"HTTPConnection(host='127.0.0.1', port=8080): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it\"))"
+    },
+    {
+      "scenario": "mixed",
+      "text": "مرحبا everyone, welcome to the AI speech benchmark.",
+      "output_path": "outputs\\fish_speech_s2\\mixed.wav",
+      "inference_time_seconds": null,
+      "audio_duration_seconds": null,
+      "rtf": null,
+      "output_size_bytes": null,
+      "ram_usage_mb": null,
+      "vram_usage_mb": null,
+      "wer": null,
+      "cer": null,
+      "stt_text": null,
+      "error": "HTTPConnectionPool(host='127.0.0.1', port=8080): Max retries exceeded with url: /v1/tts (Caused by NewConnectionError(\"HTTPConnection(host='127.0.0.1', port=8080): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it\"))"
+    },
+    {
+      "scenario": "long_text",
+      "text": "Today we are evaluating text to speech systems for enterprise use. A strong voice model should produce clear pronunciation, natural rhythm, stable pacing, and consistent audio quality across different languages. The benchmark includes English, Arabic, mixed Arabic English text, and a longer paragraph to measure latency under a more realistic workload. We also compare output duration, real time factor, memory usage, file size, and automatic intelligibility scores from a shared speech recognition model. For production selection, quality is not the only concern. Teams also need to understand licensing, commercial use rights, deployment style, voice cloning capability, GPU requirements, privacy, reliability, and cost. This paragraph is intentionally neutral and practical so that every model receives the same input content. The final report should make it easier to choose the best system for Arabic narration, English narration, mixed language support, low latency applications, self hosted deployment, or enterprise API usage.",
+      "output_path": "outputs\\fish_speech_s2\\long_text.wav",
+      "inference_time_seconds": null,
+      "audio_duration_seconds": null,
+      "rtf": null,
+      "output_size_bytes": null,
+      "ram_usage_mb": null,
+      "vram_usage_mb": null,
+      "wer": null,
+      "cer": null,
+      "stt_text": null,
+      "error": "HTTPConnectionPool(host='127.0.0.1', port=8080): Max retries exceeded with url: /v1/tts (Caused by NewConnectionError(\"HTTPConnection(host='127.0.0.1', port=8080): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it\"))"
+    }
+  ]
+}

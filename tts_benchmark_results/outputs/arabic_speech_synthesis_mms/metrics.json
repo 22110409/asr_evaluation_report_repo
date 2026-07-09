@@ -1,0 +1,30 @@
+{
+  "model_info": {
+    "name": "Arabic Speech Synthesis MMS",
+    "license": "CC-BY-NC 4.0",
+    "commercial_use": "No",
+    "english_support": "Not Supported",
+    "arabic_support": "Supported",
+    "mixed_language_support": "Limited",
+    "voice_cloning": "Not Supported",
+    "self_hosted": true,
+    "notes": "Small VITS-based Arabic MMS checkpoint. Override with MMS_TTS_MODEL_ID if needed."
+  },
+  "scenarios": [
+    {
+      "scenario": "arabic",
+      "text": "مرحبا، كيف حالك اليوم؟ أتمنى أن تكون بخير.",
+      "output_path": "outputs\\arabic_speech_synthesis_mms\\arabic.wav",
+      "inference_time_seconds": 11.8416,
+      "audio_duration_seconds": 6.448,
+      "rtf": 1.8365,
+      "output_size_bytes": 206380,
+      "ram_usage_mb": 520.9102,
+      "vram_usage_mb": null,
+      "wer": null,
+      "cer": null,
+      "stt_text": null,
+      "error": null
+    }
+  ]
+}

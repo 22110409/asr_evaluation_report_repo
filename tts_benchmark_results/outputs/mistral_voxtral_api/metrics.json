@@ -1,0 +1,45 @@
+{
+  "model_info": {
+    "name": "Mistral Voxtral API",
+    "license": "Commercial API terms",
+    "commercial_use": "Yes, plan dependent",
+    "english_support": "Supported",
+    "arabic_support": "Supported",
+    "mixed_language_support": "Supported",
+    "voice_cloning": "Supported",
+    "self_hosted": false,
+    "notes": "Endpoint and payload can be overridden with environment variables as the API evolves."
+  },
+  "scenarios": [
+    {
+      "scenario": "arabic",
+      "text": "مرحبا، كيف حالك اليوم؟ أتمنى أن تكون بخير.",
+      "output_path": "outputs\\mistral_voxtral_api\\arabic.wav",
+      "inference_time_seconds": 3.9117,
+      "audio_duration_seconds": 3.92,
+      "rtf": 0.9979,
+      "output_size_bytes": 188204,
+      "ram_usage_mb": 5.7734,
+      "vram_usage_mb": null,
+      "wer": null,
+      "cer": null,
+      "stt_text": null,
+      "error": null
+    },
+    {
+      "scenario": "mixed",
+      "text": "مرحبا everyone, welcome to the AI speech benchmark.",
+      "output_path": "outputs\\mistral_voxtral_api\\mixed.wav",
+      "inference_time_seconds": 3.0842,
+      "audio_duration_seconds": 3.68,
+      "rtf": 0.8381,
+      "output_size_bytes": 176684,
+      "ram_usage_mb": 0.0117,
+      "vram_usage_mb": null,
+      "wer": null,
+      "cer": null,
+      "stt_text": null,
+      "error": null
+    }
+  ]
+}

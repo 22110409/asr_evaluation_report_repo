@@ -1,0 +1,45 @@
+{
+  "model_info": {
+    "name": "SILMA TTS",
+    "license": "Code MIT; model weights Apache-2.0",
+    "commercial_use": "Yes",
+    "english_support": "Supported",
+    "arabic_support": "Supported",
+    "mixed_language_support": "Supported",
+    "voice_cloning": "Optional",
+    "self_hosted": true,
+    "notes": "Uses a bundled sample voice unless --reference-voice or SILMA_TTS_REFERENCE_AUDIO is set."
+  },
+  "scenarios": [
+    {
+      "scenario": "arabic",
+      "text": "مرحبا، كيف حالك اليوم؟ أتمنى أن تكون بخير.",
+      "output_path": "outputs/silma_tts/arabic.wav",
+      "inference_time_seconds": 41.4185,
+      "audio_duration_seconds": 3.552,
+      "rtf": 11.6606,
+      "output_size_bytes": 170524,
+      "ram_usage_mb": 1805.3828,
+      "vram_usage_mb": 2907.8569,
+      "wer": null,
+      "cer": null,
+      "stt_text": null,
+      "error": null
+    },
+    {
+      "scenario": "mixed",
+      "text": "السلام عليكم everyone. Today we are testing a multilingual AI assistant that can understand both Arabic and English in the same conversation. إذا كان المستخدم يتحدث بالعربية ثم انتقل إلى English without warning, the system should continue naturally without losing context. For example, a user might say: مرحبا، can you help me schedule a meeting for tomorrow at 10 AM and then send the details by email? بعد ذلك قد يطلب المستخدم ملخصاً للاجتماع باللغة العربية، while still expecting technical terms to remain in English. The assistant should also handle names, numbers, dates, locations, and abbreviations correctly regardless of the active language. هذا النوع من المحادثات شائع جداً في الشرق الأوسط where people frequently switch between Arabic and English.",
+      "output_path": "outputs/silma_tts/mixed.wav",
+      "inference_time_seconds": 37.9495,
+      "audio_duration_seconds": 61.374,
+      "rtf": 0.6183,
+      "output_size_bytes": 2945978,
+      "ram_usage_mb": 533.8047,
+      "vram_usage_mb": 2921.1069,
+      "wer": null,
+      "cer": null,
+      "stt_text": null,
+      "error": null
+    }
+  ]
+}

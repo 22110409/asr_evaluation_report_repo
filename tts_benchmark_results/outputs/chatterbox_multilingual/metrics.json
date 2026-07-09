@@ -1,0 +1,30 @@
+{
+  "model_info": {
+    "name": "Chatterbox Multilingual",
+    "license": "MIT",
+    "commercial_use": "Yes",
+    "english_support": "Supported",
+    "arabic_support": "Supported",
+    "mixed_language_support": "Segmented",
+    "voice_cloning": "Supported",
+    "self_hosted": true,
+    "notes": "Mixed text is split into Arabic/English chunks and concatenated."
+  },
+  "scenarios": [
+    {
+      "scenario": "mixed",
+      "text": "السلام عليكم everyone. Today we are testing a multilingual AI assistant that can understand both Arabic and English in the same conversation. إذا كان المستخدم يتحدث بالعربية ثم انتقل إلى English without warning, the system should continue naturally without losing context. For example, a user might say: مرحبا، can you help me schedule a meeting for tomorrow at 10 AM and then send the details by email? بعد ذلك قد يطلب المستخدم ملخصاً للاجتماع باللغة العربية، while still expecting technical terms to remain in English. The assistant should also handle names, numbers, dates, locations, and abbreviations correctly regardless of the active language. هذا النوع من المحادثات شائع جداً في الشرق الأوسط where people frequently switch between Arabic and English.",
+      "output_path": "outputs\\chatterbox_multilingual\\mixed.wav",
+      "inference_time_seconds": 364.5019,
+      "audio_duration_seconds": 40.0,
+      "rtf": 9.1125,
+      "output_size_bytes": 3840080,
+      "ram_usage_mb": 1079.5273,
+      "vram_usage_mb": null,
+      "wer": null,
+      "cer": null,
+      "stt_text": null,
+      "error": null
+    }
+  ]
+}
